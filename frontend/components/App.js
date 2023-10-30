@@ -23,7 +23,7 @@ function App() {
         console.log(err.message)
       })
     }
-   // getPhoto() // this is working fine, turned off to avoid running out of requests.!!! 
+    getPhoto() // this is working fine, turned off to avoid running out of requests.!!! 
    setApod({
         "date": "2023-10-30",
         "explanation": "Do any shapes seem to jump out at you from this interstellar field of stars and dust?  The jeweled expanse, filled with faint, starlight-reflecting clouds, drifts through the night in the royal constellation of Cepheus. Far from your own neighborhood on planet Earth, these ghostly apparitions lurk along the plane of the Milky Way at the edge of the Cepheus Flare molecular cloud complex some 1,200 light-years away. Over two light-years across and brighter than the other spooky chimeras, VdB 141 o...",
